@@ -1,2 +1,3 @@
-# DualAST
-This is the official Tensorflow implementation of our paper: "DualAST: Dual Style-Learning Networks for Artistic Style Transfer"
+# DualAST: Dual Style-Learning Networks for Artistic Style Transfer
+This is the official Tensorflow implementation of our paper: "DualAST: Dual Style-Learning Networks for Artistic Style Transfer"  
+In this paper, we propose a novel style transfer framework, termed as DualAST, to address the artistic style transfer problem from a new perspective. Unlike existing style transfer methods, which learn styles from either a single style example or a collection of artworks, the proposed DualAST learns simultaneously both the holistic artist-style (from a collection of artworks) and the specific artwork-style (from a single style image): the first style sets the tone for the stylized image, while the second style determines the details of the stylized image, such as color and texture. Furthermore, we introduce a Style-Control Block (SCB) to adjust the styles of generated images with a set of learnable style-control factors.
