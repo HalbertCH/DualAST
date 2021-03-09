@@ -9,5 +9,6 @@ This project provides a novel style transfer framework, termed as DualAST, to ad
 We recommend the following configurations:  
 - python 3.7
 - tensorflow 1.14.0
+- CUDA 10.1
 - PIL, numpy, scipy
 - tqdm
