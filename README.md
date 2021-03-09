@@ -5,7 +5,8 @@ This project provides a novel style transfer framework, termed as DualAST, to ad
   
 ![image](https://github.com/HalbertCH/DualAST/blob/main/results/1.png)  
   
-## Requirements
+## Requirements  
+We recommend the following configurations:  
 - python 3.7
 - tensorflow 1.14.0
 - PIL, numpy, scipy
