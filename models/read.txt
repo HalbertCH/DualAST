@@ -1,0 +1,3 @@
+Here you store models checkpoints, training logs and all intermediate results.
+Download pretrained models from https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing
+and extract them to this folder.
