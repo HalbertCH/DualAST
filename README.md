@@ -44,7 +44,10 @@ python main.py --model_name=van-gogh \
 We provide some pre-trained models in [link](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing).  
 We refer the reader to [AST](https://github.com/CompVis/adaptive-style-transfer) for the computation of [Deception Rate](https://github.com/CompVis/adaptive-style-transfer/tree/master/evaluation).  
   
-## Comparison Results:
+## Comparison Results
 We compare our DualAST with [Gatys *et al.*](https://github.com/anishathalye/neural-style), [AdaIN](https://github.com/naoto0804/pytorch-AdaIN), [WCT](https://github.com/eridgd/WCT-TF), [Avatar-Net](https://github.com/LucasSheng/avatar-net), [SANet](https://github.com/GlebBrykin/SANET), [AST](https://github.com/CompVis/adaptive-style-transfer), and [Svoboda *et al.*](https://github.com/nnaisense/conditional-style-transfer).  
   
-![image](https://github.com/HalbertCH/DualAST/blob/main/results/3.png) 
+![image](https://github.com/HalbertCH/DualAST/blob/main/results/3.png)  
+
+## Acknowledgments
+The code in this repository is based on [AST](https://github.com/CompVis/adaptive-style-transfer). Thanks for both their paper and code.
