@@ -13,7 +13,7 @@ We recommend the following configurations:
 - PIL, numpy, scipy
 - tqdm
   
-## Model training  
+## Model Training  
 - Download the content dataset: [Places365(105GB)](http://data.csail.mit.edu/places/places365/train_large_places365standard.tar).
 - Download the style dataset: [Artworks of Different Artists](https://drive.google.com/drive/folders/1WxWxIhqqtkx4CwBVem7ZSr_ay9JJCiOh?usp=sharing). Thanks for the dataset provided by [AST](https://github.com/CompVis/adaptive-style-transfer).
 - Download the pre-trained [VGG-19](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing) model, and record the path of VGG-19 in *vgg19.py*.
@@ -26,7 +26,7 @@ python main.py --model_name van-gogh \
                --ptcd /disk1/chb/data/data_large
 ```
   
-## Model testing
+## Model Testing
 - Put your trained model to *./models/* folder.
 - Put some sample photographs to *./images/content/* folder.
 - Put some reference images to *./images/reference/* folder.
@@ -43,3 +43,8 @@ python main.py --model_name=van-gogh \
   
 We provide some pre-trained models in [link](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing).  
 We refer the reader to [AST](https://github.com/CompVis/adaptive-style-transfer) for the computation of [Deception Rate](https://github.com/CompVis/adaptive-style-transfer/tree/master/evaluation).  
+  
+## Comparison Results:
+We compare our DualAST with [Gatys *et al.*](https://github.com/anishathalye/neural-style), [AdaIN](https://github.com/naoto0804/pytorch-AdaIN), [WCT](https://github.com/eridgd/WCT-TF), [Avatar-Net](https://github.com/LucasSheng/avatar-net), [SANet](https://github.com/GlebBrykin/SANET), [AST](https://github.com/CompVis/adaptive-style-transfer), and [Svoboda *et al.*](https://github.com/nnaisense/conditional-style-transfer).  
+  
+![image](https://github.com/HalbertCH/DualAST/blob/main/results/3.png) 
