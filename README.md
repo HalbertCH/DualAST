@@ -15,5 +15,5 @@ We recommend the following configurations:
   
 ## Download  
 - Content images used for training: [Places365(105GB)](http://data.csail.mit.edu/places/places365/train_large_places365standard.tar).
-- Style images used for training: [Artworks of different artists](https://drive.google.com/drive/folders/1WxWxIhqqtkx4CwBVem7ZSr_ay9JJCiOh?usp=sharing). Thanks for the dataset provided by AST.
+- Style images used for training: [Artworks of Different Artists](https://drive.google.com/drive/folders/1WxWxIhqqtkx4CwBVem7ZSr_ay9JJCiOh?usp=sharing). Thanks for the dataset provided by [AST](https://github.com/CompVis/adaptive-style-transfer).
 - Pre-trained [VGG-19](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing) model.
