@@ -39,4 +39,7 @@ python main.py --model_name=van-gogh \
                --reference images/reference/van-gogh/1.jpg
                --save_dir=models/van-gogh/inference
 ```
-We provide some pre-trained models in [link](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing).
+![image](https://github.com/HalbertCH/DualAST/blob/main/results/2.png) 
+  
+We provide some pre-trained models in [link](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing).  
+We refer the reader to [AST](https://github.com/CompVis/adaptive-style-transfer) for the computation of [Deception Rate](https://github.com/CompVis/adaptive-style-transfer/tree/master/evaluation).  
