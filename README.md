@@ -16,7 +16,7 @@ We recommend the following configurations:
 ## Model training  
 - Download the content dataset: [Places365(105GB)](http://data.csail.mit.edu/places/places365/train_large_places365standard.tar).
 - Download the style dataset: [Artworks of Different Artists](https://drive.google.com/drive/folders/1WxWxIhqqtkx4CwBVem7ZSr_ay9JJCiOh?usp=sharing). Thanks for the dataset provided by [AST](https://github.com/CompVis/adaptive-style-transfer).
-- Download the pre-trained [VGG-19](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing) model, and record the path of VGG-19 in vgg19.py.
+- Download the pre-trained [VGG-19](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing) model, and record the path of VGG-19 in *vgg19.py*.
 - Run the following command:
 ```
 python main.py --model_name van-gogh \
@@ -27,9 +27,9 @@ python main.py --model_name van-gogh \
 ```
   
 ## Model testing
-- Put your trained model to ./models/ folder.
-- Put some sample photographs to ./images/content/ folder.
-- Put some reference images to ./images/reference/ folder.
+- Put your trained model to *./models/* folder.
+- Put some sample photographs to *./images/content/* folder.
+- Put some reference images to *./images/reference/* folder.
 - Run the following command:
 ```
 python main.py --model_name=van-gogh \
@@ -39,3 +39,4 @@ python main.py --model_name=van-gogh \
                --reference images/reference/van-gogh/1.jpg
                --save_dir=models/van-gogh/inference
 ```
+We provide some pre-trained models in [link](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing).
