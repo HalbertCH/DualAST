@@ -17,3 +17,16 @@ We recommend the following configurations:
 - Content images used for training: [Places365(105GB)](http://data.csail.mit.edu/places/places365/train_large_places365standard.tar).
 - Style images used for training: [Artworks of Different Artists](https://drive.google.com/drive/folders/1WxWxIhqqtkx4CwBVem7ZSr_ay9JJCiOh?usp=sharing). Thanks for the dataset provided by [AST](https://github.com/CompVis/adaptive-style-transfer).
 - Pre-trained [VGG-19](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing) model.
+  
+## Model training  
+- Download the content dataset: [Places365(105GB)](http://data.csail.mit.edu/places/places365/train_large_places365standard.tar).
+- Download the style dataset: [Artworks of Different Artists](https://drive.google.com/drive/folders/1WxWxIhqqtkx4CwBVem7ZSr_ay9JJCiOh?usp=sharing). Thanks for the dataset provided by [AST](https://github.com/CompVis/adaptive-style-transfer).
+- Download the pre-trained [VGG-19](https://drive.google.com/drive/folders/1n7VazSzdVdAN8Bp392KYQGVshg9pTdQ4?usp=sharing) model, and record the path of VGG-19 in vgg19.py.
+```
+python main.py --model_name van-gogh \
+               --phase train \
+               --image_size 768 \
+               --ptad /disk1/chb/data/vincent-van-gogh_road-with-cypresses-1890 \
+               --ptcd /disk1/chb/data/data_large
+```
+
